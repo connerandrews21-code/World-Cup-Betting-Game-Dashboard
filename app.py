@@ -6,10 +6,10 @@ import pytz
 
 # --- ⚙️ CONFIGURATION ⚙️ ---
 # 1. Paste your published Google Sheet CSV link here
-GOOGLE_SHEET_CSV_URL = "YOUR_GOOGLE_SHEET_CSV_LINK_HERE"
+GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTK91z-KnxqIUFm2m6_N5yE4LOshbLx76msh8a6NiPANCNtnGGGzLUHA6hkvlumR2_Dv3j4LG0yqSii/pub?output=csv"
 
 # 2. Paste your free football-data.org API token here
-FOOTBALL_API_TOKEN = "YOUR_API_TOKEN_HERE"
+FOOTBALL_API_TOKEN = "326ea6a887f842a685ee132585df4688"
 # ---------------------------
 
 st.set_page_config(page_title="World Cup Pool Live Dashboard", page_icon="🏆", layout="wide")
